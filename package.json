@@ -10,7 +10,10 @@
   "bin": {
     "ygp": "cli.js"
   },
-  "files": ["index.js", "cli.js"],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "standard"
@@ -23,6 +26,7 @@
   "dependencies": {
     "cac": "^4.0.0",
     "columnify": "^1.5.4",
+    "update-notifier": "^2.3.0",
     "yarn-global-packages": "^0.0.1"
   },
   "devDependencies": {
