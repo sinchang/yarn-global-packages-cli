@@ -1,6 +1,6 @@
 {
   "name": "yarn-global-packages-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get yarn global packages with cli",
   "repository": {
     "url": "sinchang/yarn-global-packages-cli",
@@ -10,10 +10,7 @@
   "bin": {
     "ygp": "cli.js"
   },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
+  "files": ["index.js", "cli.js"],
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "standard"
