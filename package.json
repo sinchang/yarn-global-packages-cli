@@ -1,0 +1,32 @@
+{
+  "name": "yarn-global-packages-cli",
+  "version": "0.0.0",
+  "description": "get yarn global packages with cli",
+  "repository": {
+    "url": "sinchang/yarn-global-packages-cli",
+    "type": "git"
+  },
+  "main": "index.js",
+  "bin": {
+    "ygp": "cli.js"
+  },
+  "files": ["index.js", "cli.js"],
+  "scripts": {
+    "test": "npm run lint && jest",
+    "lint": "standard"
+  },
+  "author": "sinchang <sinchangwen@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "cac": "^4.0.0",
+    "columnify": "^1.5.4",
+    "yarn-global-packages": "^0.0.1"
+  },
+  "devDependencies": {
+    "jest-cli": "^22.1.4",
+    "standard": "^10.0.0"
+  }
+}
